@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5961A1C81E700609007FAA70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961A1C71E700609007FAA70 /* AppDelegate.swift */; };
+		5961A1CA1E700609007FAA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961A1C91E700609007FAA70 /* ViewController.swift */; };
+		5961A1CD1E700609007FAA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961A1CB1E700609007FAA70 /* Main.storyboard */; };
+		5961A1CF1E700609007FAA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5961A1CE1E700609007FAA70 /* Assets.xcassets */; };
+		5961A1D21E700609007FAA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5961A1D01E700609007FAA70 /* LaunchScreen.storyboard */; };
+		5961A1DD1E70060A007FAA70 /* RomWavesCustomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961A1DC1E70060A007FAA70 /* RomWavesCustomTests.swift */; };
+		5961A1E81E70060A007FAA70 /* RomWavesCustomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961A1E71E70060A007FAA70 /* RomWavesCustomUITests.swift */; };
+		5961A1F61E7006C4007FAA70 /* RomWavesCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5961A1F51E7006C4007FAA70 /* RomWavesCustom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5961A1D91E70060A007FAA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5961A1BC1E700609007FAA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5961A1C31E700609007FAA70;
+			remoteInfo = RomWavesCustom;
+		};
+		5961A1E41E70060A007FAA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5961A1BC1E700609007FAA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5961A1C31E700609007FAA70;
+			remoteInfo = RomWavesCustom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5961A1C41E700609007FAA70 /* RomWavesCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomWavesCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961A1C71E700609007FAA70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5961A1C91E700609007FAA70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5961A1CC1E700609007FAA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5961A1CE1E700609007FAA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5961A1D11E700609007FAA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5961A1D31E700609007FAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961A1D81E70060A007FAA70 /* RomWavesCustomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomWavesCustomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961A1DC1E70060A007FAA70 /* RomWavesCustomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomWavesCustomTests.swift; sourceTree = "<group>"; };
+		5961A1DE1E70060A007FAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961A1E31E70060A007FAA70 /* RomWavesCustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomWavesCustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5961A1E71E70060A007FAA70 /* RomWavesCustomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomWavesCustomUITests.swift; sourceTree = "<group>"; };
+		5961A1E91E70060A007FAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5961A1F51E7006C4007FAA70 /* RomWavesCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomWavesCustom.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5961A1C11E700609007FAA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961A1D51E70060A007FAA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961A1E01E70060A007FAA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5961A1BB1E700609007FAA70 = {
+			isa = PBXGroup;
+			children = (
+				5961A1C61E700609007FAA70 /* RomWavesCustom */,
+				5961A1DB1E70060A007FAA70 /* RomWavesCustomTests */,
+				5961A1E61E70060A007FAA70 /* RomWavesCustomUITests */,
+				5961A1C51E700609007FAA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5961A1C51E700609007FAA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5961A1C41E700609007FAA70 /* RomWavesCustom.app */,
+				5961A1D81E70060A007FAA70 /* RomWavesCustomTests.xctest */,
+				5961A1E31E70060A007FAA70 /* RomWavesCustomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5961A1C61E700609007FAA70 /* RomWavesCustom */ = {
+			isa = PBXGroup;
+			children = (
+				5961A1C71E700609007FAA70 /* AppDelegate.swift */,
+				5961A1C91E700609007FAA70 /* ViewController.swift */,
+				5961A1F51E7006C4007FAA70 /* RomWavesCustom.swift */,
+				5961A1CB1E700609007FAA70 /* Main.storyboard */,
+				5961A1CE1E700609007FAA70 /* Assets.xcassets */,
+				5961A1D01E700609007FAA70 /* LaunchScreen.storyboard */,
+				5961A1D31E700609007FAA70 /* Info.plist */,
+			);
+			path = RomWavesCustom;
+			sourceTree = "<group>";
+		};
+		5961A1DB1E70060A007FAA70 /* RomWavesCustomTests */ = {
+			isa = PBXGroup;
+			children = (
+				5961A1DC1E70060A007FAA70 /* RomWavesCustomTests.swift */,
+				5961A1DE1E70060A007FAA70 /* Info.plist */,
+			);
+			path = RomWavesCustomTests;
+			sourceTree = "<group>";
+		};
+		5961A1E61E70060A007FAA70 /* RomWavesCustomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5961A1E71E70060A007FAA70 /* RomWavesCustomUITests.swift */,
+				5961A1E91E70060A007FAA70 /* Info.plist */,
+			);
+			path = RomWavesCustomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5961A1C31E700609007FAA70 /* RomWavesCustom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5961A1EC1E70060A007FAA70 /* Build configuration list for PBXNativeTarget "RomWavesCustom" */;
+			buildPhases = (
+				5961A1C01E700609007FAA70 /* Sources */,
+				5961A1C11E700609007FAA70 /* Frameworks */,
+				5961A1C21E700609007FAA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomWavesCustom;
+			productName = RomWavesCustom;
+			productReference = 5961A1C41E700609007FAA70 /* RomWavesCustom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5961A1D71E70060A007FAA70 /* RomWavesCustomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5961A1EF1E70060A007FAA70 /* Build configuration list for PBXNativeTarget "RomWavesCustomTests" */;
+			buildPhases = (
+				5961A1D41E70060A007FAA70 /* Sources */,
+				5961A1D51E70060A007FAA70 /* Frameworks */,
+				5961A1D61E70060A007FAA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5961A1DA1E70060A007FAA70 /* PBXTargetDependency */,
+			);
+			name = RomWavesCustomTests;
+			productName = RomWavesCustomTests;
+			productReference = 5961A1D81E70060A007FAA70 /* RomWavesCustomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5961A1E21E70060A007FAA70 /* RomWavesCustomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5961A1F21E70060A007FAA70 /* Build configuration list for PBXNativeTarget "RomWavesCustomUITests" */;
+			buildPhases = (
+				5961A1DF1E70060A007FAA70 /* Sources */,
+				5961A1E01E70060A007FAA70 /* Frameworks */,
+				5961A1E11E70060A007FAA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5961A1E51E70060A007FAA70 /* PBXTargetDependency */,
+			);
+			name = RomWavesCustomUITests;
+			productName = RomWavesCustomUITests;
+			productReference = 5961A1E31E70060A007FAA70 /* RomWavesCustomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5961A1BC1E700609007FAA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "戴明亮";
+				TargetAttributes = {
+					5961A1C31E700609007FAA70 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5W9RQLHQL4;
+						ProvisioningStyle = Automatic;
+					};
+					5961A1D71E70060A007FAA70 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5W9RQLHQL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5961A1C31E700609007FAA70;
+					};
+					5961A1E21E70060A007FAA70 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5W9RQLHQL4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5961A1C31E700609007FAA70;
+					};
+				};
+			};
+			buildConfigurationList = 5961A1BF1E700609007FAA70 /* Build configuration list for PBXProject "RomWavesCustom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5961A1BB1E700609007FAA70;
+			productRefGroup = 5961A1C51E700609007FAA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5961A1C31E700609007FAA70 /* RomWavesCustom */,
+				5961A1D71E70060A007FAA70 /* RomWavesCustomTests */,
+				5961A1E21E70060A007FAA70 /* RomWavesCustomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5961A1C21E700609007FAA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5961A1D21E700609007FAA70 /* LaunchScreen.storyboard in Resources */,
+				5961A1CF1E700609007FAA70 /* Assets.xcassets in Resources */,
+				5961A1CD1E700609007FAA70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961A1D61E70060A007FAA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961A1E11E70060A007FAA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5961A1C01E700609007FAA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5961A1CA1E700609007FAA70 /* ViewController.swift in Sources */,
+				5961A1F61E7006C4007FAA70 /* RomWavesCustom.swift in Sources */,
+				5961A1C81E700609007FAA70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961A1D41E70060A007FAA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5961A1DD1E70060A007FAA70 /* RomWavesCustomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5961A1DF1E70060A007FAA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5961A1E81E70060A007FAA70 /* RomWavesCustomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5961A1DA1E70060A007FAA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5961A1C31E700609007FAA70 /* RomWavesCustom */;
+			targetProxy = 5961A1D91E70060A007FAA70 /* PBXContainerItemProxy */;
+		};
+		5961A1E51E70060A007FAA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5961A1C31E700609007FAA70 /* RomWavesCustom */;
+			targetProxy = 5961A1E41E70060A007FAA70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5961A1CB1E700609007FAA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5961A1CC1E700609007FAA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5961A1D01E700609007FAA70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5961A1D11E700609007FAA70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5961A1EA1E70060A007FAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5961A1EB1E70060A007FAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5961A1ED1E70060A007FAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = RomWavesCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rom.com.www.RomWavesCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5961A1EE1E70060A007FAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = RomWavesCustom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rom.com.www.RomWavesCustom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5961A1F01E70060A007FAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = RomWavesCustomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rom.com.www.RomWavesCustomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomWavesCustom.app/RomWavesCustom";
+			};
+			name = Debug;
+		};
+		5961A1F11E70060A007FAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = RomWavesCustomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rom.com.www.RomWavesCustomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomWavesCustom.app/RomWavesCustom";
+			};
+			name = Release;
+		};
+		5961A1F31E70060A007FAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = RomWavesCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rom.com.www.RomWavesCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RomWavesCustom;
+			};
+			name = Debug;
+		};
+		5961A1F41E70060A007FAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5W9RQLHQL4;
+				INFOPLIST_FILE = RomWavesCustomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rom.com.www.RomWavesCustomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RomWavesCustom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5961A1BF1E700609007FAA70 /* Build configuration list for PBXProject "RomWavesCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961A1EA1E70060A007FAA70 /* Debug */,
+				5961A1EB1E70060A007FAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5961A1EC1E70060A007FAA70 /* Build configuration list for PBXNativeTarget "RomWavesCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961A1ED1E70060A007FAA70 /* Debug */,
+				5961A1EE1E70060A007FAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5961A1EF1E70060A007FAA70 /* Build configuration list for PBXNativeTarget "RomWavesCustomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961A1F01E70060A007FAA70 /* Debug */,
+				5961A1F11E70060A007FAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5961A1F21E70060A007FAA70 /* Build configuration list for PBXNativeTarget "RomWavesCustomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961A1F31E70060A007FAA70 /* Debug */,
+				5961A1F41E70060A007FAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5961A1BC1E700609007FAA70 /* Project object */;
+}
