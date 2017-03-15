@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "474F345DAF64F66FD0E981CF0E7D61DCE4262EF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "474F345DAF64F66FD0E981CF0E7D61DCE4262EF2" : 9223372036854775807,
+    "DF1B98CAC79AC1EDB8C298A093BE1C2D25E2EB6D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "642CD795-A777-4159-91F4-1766383E99EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "474F345DAF64F66FD0E981CF0E7D61DCE4262EF2" : "WavesAnimationSwift\/",
+    "DF1B98CAC79AC1EDB8C298A093BE1C2D25E2EB6D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RomWavesCustom",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RomWavesCustom\/RomWavesCustom.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MrDML\/WavesAnimationSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "474F345DAF64F66FD0E981CF0E7D61DCE4262EF2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:MrDaiM\/Weibo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF1B98CAC79AC1EDB8C298A093BE1C2D25E2EB6D"
+    }
+  ]
+}

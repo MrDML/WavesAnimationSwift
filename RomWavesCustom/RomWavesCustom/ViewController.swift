@@ -69,7 +69,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
             let  waves  = RomWavesCustom.init(frame: CGRect.init(x: 0, y: 120, width: UIScreen.main.bounds.width, height: 80))
             headerView?.addSubview(waves)
-            
             let imgv = UIImageView.init()
             imgv.image = UIImage.init(named: "swiftIcon")
             let size = CGSize.init(width: 50, height: 50)
