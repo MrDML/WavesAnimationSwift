@@ -12,25 +12,25 @@ class RomWavesCustom: UIView {
     
     // ************************************
     lazy var firstWavesLayer: CAShapeLayer = CAShapeLayer.init()
-    lazy  var wavesDisplayLink: CADisplayLink = CADisplayLink.init(target: self, selector: #selector(startwaves))
+   fileprivate lazy  var wavesDisplayLink: CADisplayLink = CADisplayLink.init(target: self, selector: #selector(startwaves))
     // 懒加载的复杂的写法
     var secondWavesLayer: CAShapeLayer  = { () -> (CAShapeLayer) in
         let layer = CAShapeLayer.init()
         return layer
     }()
     
-    var wavesA_First: CGFloat = 0 // 波浪振幅
-    var wavesW_First: CGFloat = 0 // 波浪周期
-    var offsetX_First: CGFloat = 0 // 偏移
-    var wavesSpeed_Frist: CGFloat = 0 // 波浪速度
-    var wavesWidth_First: CGFloat = 0 // 波浪宽度
-    var wavesCurrentY_Frist: CGFloat = 0 // 当前波浪的高度（起始高度）
+   fileprivate var wavesA_First: CGFloat = 0 // 波浪振幅
+   fileprivate var wavesW_First: CGFloat = 0 // 波浪周期
+   fileprivate var offsetX_First: CGFloat = 0 // 偏移
+   fileprivate var wavesSpeed_Frist: CGFloat = 0 // 波浪速度
+   fileprivate var wavesWidth_First: CGFloat = 0 // 波浪宽度
+   fileprivate var wavesCurrentY_Frist: CGFloat = 0 // 当前波浪的高度（起始高度）
     
     
-    var wavesA_Second: Double = 0
-    var wavesW_Seocnd: Double = 0
-    var offsetX_Second: Double = 0
-    var wavesSpeed_Second: Double = 0
+   fileprivate var wavesA_Second: Double = 0
+   fileprivate var wavesW_Seocnd: Double = 0
+   fileprivate var offsetX_Second: Double = 0
+   fileprivate var wavesSpeed_Second: Double = 0
     
     var currentYOffset: ((_ offset: CGFloat ) -> ())?
     // ***********************************
@@ -60,7 +60,7 @@ class RomWavesCustom: UIView {
 
 
 // MARK: - lazy
- private extension RomWavesCustom {
+ fileprivate extension RomWavesCustom {
 
     // 布局子控件
       func setupSubViews() {
@@ -95,7 +95,7 @@ class RomWavesCustom: UIView {
 
 
 // MARK: - 绘制路劲
-private extension RomWavesCustom {
+fileprivate extension RomWavesCustom {
     
     /// 绘制第一个波浪
     func setCurrentFirstWavesLayerPath(){
