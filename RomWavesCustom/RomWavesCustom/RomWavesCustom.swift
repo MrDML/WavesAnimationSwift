@@ -13,7 +13,6 @@ class RomWavesCustom: UIView {
     // ************************************
     lazy var firstWavesLayer: CAShapeLayer = CAShapeLayer.init()
    fileprivate lazy  var wavesDisplayLink: CADisplayLink = CADisplayLink.init(target: self, selector: #selector(startwaves))
-    // 懒加载的复杂的写法
     var secondWavesLayer: CAShapeLayer  = { () -> (CAShapeLayer) in
         let layer = CAShapeLayer.init()
         return layer
@@ -49,8 +48,7 @@ class RomWavesCustom: UIView {
         setCurrentFirstWavesLayerPath()
         setCurrentSecondWavesLayerPath()
     }
-    
-    
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -78,8 +76,6 @@ class RomWavesCustom: UIView {
         wavesA_Second = 13
         wavesW_Seocnd = 0.5/30.0
         
-        
-        
         firstWavesLayer.fillColor = UIColor.white.cgColor
         secondWavesLayer.fillColor = UIColor.white.withAlphaComponent(0.5).cgColor
         self.layer.addSublayer(firstWavesLayer)
@@ -106,19 +102,13 @@ fileprivate extension RomWavesCustom {
         for i in 0...NSInteger(wavesWidth_First) {
             let y = wavesA_First * sin(wavesW_First * CGFloat(i) + offsetX_First) + wavesCurrentY_Frist
             path.addLine(to: CGPoint.init(x: CGFloat(i), y: y))
-            
             guard let currentYOffsetBlock = currentYOffset else {
                 return
             }
             currentYOffsetBlock(CGFloat(y))
-            
-            
-            
         }
         path.addLine(to: CGPoint.init(x: wavesWidth_First, y: self.frame.size.height))
-        
         path.addLine(to: CGPoint.init(x: 0, y: self.frame.size.height))
-        
         path.close()
         
         firstWavesLayer.path = path.cgPath
@@ -132,15 +122,10 @@ fileprivate extension RomWavesCustom {
         
         let path = UIBezierPath.init()
         path.move(to: CGPoint.init(x: 0, y: wavesCurrentY_Frist))
-        
-        
+
         for i in 0...Int(wavesWidth_First) {
-            
             let y = wavesA_Second * cos( wavesW_Seocnd * Double(i) +  offsetX_Second * M_PI/2.0) + Double(wavesCurrentY_Frist)
-            
             path.addLine(to: CGPoint.init(x: Double(i), y: y))
-            
-            
         }
         
         path.addLine(to: CGPoint.init(x: Double(wavesWidth_First), y: Double(self.frame.size.height)))
