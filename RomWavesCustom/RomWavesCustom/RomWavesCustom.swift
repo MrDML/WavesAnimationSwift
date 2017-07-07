@@ -9,7 +9,7 @@ import UIKit
 
 class RomWavesCustom: UIView {
 
-    
+    // 添加备注
     // ************************************
     lazy var firstWavesLayer: CAShapeLayer = CAShapeLayer.init()
    fileprivate lazy  var wavesDisplayLink: CADisplayLink = CADisplayLink.init(target: self, selector: #selector(startwaves))
